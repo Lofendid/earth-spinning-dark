@@ -1,6 +1,8 @@
 .background {
     background-color: black;
-    background-image: url(./giff/background-animation.gif), url(./img/bg-stars.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255,0,0)), url(./giff/background-animation.gif), url(./img/bg-stars.jpg);
     width: 100%;
     height: 100%;
     position: absolute;
