@@ -1,14 +1,17 @@
 .background {
     background-color: black;
-    background-image: url(./giff/background-animation.gif), url(./img/bg-stars.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgb(0, 0, 0, 0.8),
+        rgb(0, 0, 0, 0.6)
+        ), url(./giff/background-animation.gif), url(./img/bg-stars.jpg);
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     background-repeat: no-repeat;
-    background-size: contain, cover;
+    background-size: cover, contain;
     margin: 0 auto;
     background-position: center;
-
 }
